@@ -1,0 +1,2 @@
+#!bin/bash
+vacuumdb -f --host=$OPENSHIFT_POSTGRESQL_DB_HOST --port=$OPENSHIFT_POSTGRESQL_DB_PORT reader
